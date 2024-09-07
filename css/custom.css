@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("../img/collin.jpg");
+  background-repeat: no-repeat;
+  background-size: 350%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.gallery-image {
+  height: 500px;
+  width: 610px;
+  object-fit: cover;
+}
+
+.contact-card {
+  width: 575px;
+  height: 150px;
+}
+
+.container {
+  min-height: 88%;
+}
+
+hr {
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  opacity: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+/*about me page*/
+.col-8 {
+  opacity: 80%;
+  font-weight: 500;
+}
+
+mt-6 mb-6 {
+  text-align: center;
+}
+
+/*background page*/
+.mb-4 {
+  color: black;
+  font-style: oblique;
+}
+@media (max-width: 900px) {
+  body {
+    background-image: url("../img/collin.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
