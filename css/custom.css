@@ -24,13 +24,8 @@ body {
 }
 
 .contact-card {
-<<<<<<< HEAD
-    min-width: 100%;
-    height: 100%;
-=======
   width: 100%;
   height: 100%;
->>>>>>> 6c857c692609728393c4aef92a67c11731352a27
 }
 
 .container {
@@ -75,18 +70,9 @@ hr {
 }
 
 @media (min-width: 1200px) {
-<<<<<<< HEAD
     .contact {
         margin-top: 11px;
         margin-left: 10px;
         font-size: 18pt;
     }
 }
-=======
-  .contact {
-    margin-top: 11px;
-    margin-left: 10px;
-    font-size: 18pt;
-  }
-}
->>>>>>> 6c857c692609728393c4aef92a67c11731352a27
