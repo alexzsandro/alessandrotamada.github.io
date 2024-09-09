@@ -1,30 +1,26 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
 
 body {
-  background-image: url('../img/collin.jpg');
+  background-image: url("../img/collin.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 350%;
   background-position: center;
   background-attachment: fixed;
 }
 
-.my-photo {
-  min-width: 100%;
-  max-height: 40%;
-}
-
 .gallery-image {
   height: 500px;
-  width: 100%;
+  width: 610px;
   object-fit: cover;
 }
 
 .contact-card {
-  min-width: 450px;
-  height: 100%;
+  width: 575px;
+  height: 150px;
 }
 
 .container {
@@ -32,37 +28,39 @@ body {
 }
 
 hr {
-  height: 7px;
-  background-color: white;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
   border: none;
+  opacity: 100%;
 }
 
-@media (max-width: 992px) {
+h1 {
+  color: white;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+/*about me page*/
+.col-8 {
+  opacity: 80%;
+  font-weight: 500;
+}
+
+mt-6 mb-6 {
+  text-align: center;
+}
+
+/*background page*/
+.mb-4 {
+  color: black;
+  font-style: oblique;
+}
+@media (max-width: 900px) {
   body {
-    background-image: url('../img/collin.jpg');
+    background-image: url("../img/collin.jpg");
     background-size: cover;
     background-position: center;
-  }
-
-  .contact {
-    margin-left: 17px;
-    margin-top: 11px;
-    font-size: 18pt;
-  }
-}
-
-@media (min-width: 992px) {
-  .contact {
-    margin-top: 11px;
-    margin-left: -15px;
-    font-size: 18pt;
-  }
-}
-
-@media (min-width: 1200px) {
-  .contact {
-    margin-top: 11px;
-    margin-left: 10px;
-    font-size: 18pt;
   }
 }
