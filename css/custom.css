@@ -1,68 +1,78 @@
-html, body {
-  height: 100%;
-  margin: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  background-image: url('../img/collin.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-image: url('../img/collin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .my-photo {
-  min-width: 100%;
-  max-height: 40%;
+    min-width: 100%;
+    max-height: 40%;
 }
 
 .gallery-image {
-  height: 500px;
-  width: 100%;
-  object-fit: cover;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contact-card {
-  min-width: 450px;
-  height: 100%;
+    min-width: 100%;
+    height: 100%;
 }
 
 .container {
-  min-height: 88%;
+    min-height: 88%;
 }
 
 hr {
-  height: 7px;
-  background-color: white;
-  border: none;
+    height: 7px;
+    background-color: white;
+    border: none;
 }
 
 @media (max-width: 992px) {
-  body {
-    background-image: url('../img/collin.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+    body {
+        background-image: url('../img/collin.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
 
-  .contact {
-    margin-left: 17px;
-    margin-top: 11px;
-    font-size: 18pt;
-  }
+    .contact {
+        margin-left: 17px;
+        margin-top: 9.5px;
+        font-size: 13pt;
+    }
+
+    .fa-size {
+        font-size: 200%;
+    }
 }
 
 @media (min-width: 992px) {
-  .contact {
-    margin-top: 11px;
-    margin-left: -15px;
-    font-size: 18pt;
-  }
+    .contact {
+        margin-top: 11px;
+        margin-left: -15px;
+        font-size: 18pt;
+    }
+
+    .fa-size {
+        font-size: 300%;
+    }
 }
 
 @media (min-width: 1200px) {
-  .contact {
-    margin-top: 11px;
-    margin-left: 10px;
-    font-size: 18pt;
-  }
+    .contact {
+        margin-top: 11px;
+        margin-left: 10px;
+        font-size: 18pt;
+    }
 }
